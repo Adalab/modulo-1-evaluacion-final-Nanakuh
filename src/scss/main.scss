@@ -22,12 +22,26 @@
   --text-color2: black;
 }
 .header {
-  background-image: url(#);
+  background-image: url(/public/images/cover.jpg);
+  width: 320px;
+  height: 568px;
+  padding: 0 15px 53px 0;
+  background-blend-mode: multiply;
 }
-h1 {
-  color: red;
+.article01 {
+  text-shadow: 0 2px 3px var(--k-20);
+  background-color: var(--white);
   font-family: var(--font-family2);
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white);
 }
+
 h2 {
   font-family: var(--font-family1);
 }
