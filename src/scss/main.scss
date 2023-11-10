@@ -4,12 +4,26 @@
   components: botón. artículo, menú, enlaces
   pages: estilos propios de cada página
 */
-@import 'core/variables';
-@import 'core/reset';
-@import 'components/menu';
-@import 'components/buttons';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
+@import "core/variables";
+@import "core/reset";
+@import "components/menu";
+@import "components/buttons";
+@import "components/links";
+@import "layout/page";
+@import "layout/header";
+@import "layout/footer";
+@import "pages/index";
+
+.hero {
+  height: calc(100vh - 60px);
+  overflow: hidden;
+}
+.background {
+  overflow: hidden;
+}
+.backgound_image {
+  max-height: calc(200vh - 60px);
+}
+.h1 {
+  color: red;
+}
