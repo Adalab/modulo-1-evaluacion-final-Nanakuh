@@ -23,13 +23,25 @@
 }
 .header {
   background-image: url(/public/images/cover.jpg);
+  
+}
+.fixed_menu {
+  position: sticky;
+  top: 0px;
+}
+.hero {
   width: 320px;
   height: 568px;
   padding: 0 15px 53px 0;
   background-blend-mode: multiply;
+  color: red;
+}
+.articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .article01 {
-  text-shadow: 0 2px 3px var(--k-20);
   background-color: var(--white);
   font-family: var(--font-family2);
   font-size: 42px;
