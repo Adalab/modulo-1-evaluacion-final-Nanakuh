@@ -23,31 +23,46 @@
   --color-orange: #f26002;
 }
 .header {
-  background-image: url(/public/images/cover.jpg);
+  background-image: url("../images/cover.jpg");
 }
 .fixed_menu {
+  width: 16px;
+  height: 14px;
+  margin: 10px;
+
   position: sticky;
   top: 0px;
+  background-color: rgb(78, 134, 218);
 }
 .hero {
-  width: 320px;
-  height: 568px;
-  padding: 0 15px 53px 0;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
 .articles {
+  width: 100%;
+  justify-content: flex-start;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--text-color1);
 }
 .article01 {
+  width: 90vw;
+  margin: 250px 15px 15px 15px;
   background-color: var(--white);
   font-family: var(--font-family2);
   font-size: 42px;
   letter-spacing: normal;
   text-align: center;
-  color: var(--white);
+}
+.article02 {
+  margin: 15px;
+}
+.arrow {
+  margin: 40px;
 }
 
 h3 {
@@ -67,6 +82,15 @@ h3 {
   border-radius: 22.5px;
   border: solid 2px var(--color-orange);
 }
-.botton {
+.button01 {
   color: var(--color-orange);
+}
+.button_reason{
+  width: 150px;
+  border: solid 2px;
+  border-radius: 22.5px;
+  text-align: center;
+  color: var(--text-color1);
+  background-color: var(--color-orange);
+
 }
