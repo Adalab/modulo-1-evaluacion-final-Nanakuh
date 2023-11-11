@@ -46,7 +46,6 @@
 }
 .articles {
   padding: 350px 0px 20px 0px;
-  height: 100vh;
   width: 100vw;
   text-align: center;
   display: flex;
@@ -106,7 +105,6 @@ h3 {
   font-weight: 1000;
 }
 .reasons {
-  height: 80vh;
   width: 100vw;
   padding: 30px 15px 30px;
   background-color: #eff9ff;
@@ -135,6 +133,8 @@ h3 {
 
 .button_reason {
   width: 185px;
+  margin: auto;
+  margin-top: 30px;
   border-radius: 22.5px;
   color: var(--text-color1);
   background-color: var(--color-orange);
@@ -144,15 +144,17 @@ h3 {
 }
 .footer {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   background-color: #304268;
   color: var(--text-color1);
 }
-.arrow01 {
-  width: 29.9px;
+.footer01 {
+  width: 30px;
   height: 30px;
-  background-color: var(--text-color);
+  background-color: var(--text-color1);
+  border-radius: 50%;
+  object-fit: contain;
 }
 .artbooks {
   text-align: center;
@@ -163,7 +165,9 @@ h3 {
   padding: 10px;
 }
 .copyright {
+  padding: 20px;
   text-align: center;
+  inline-size: 1.5;
 }
 .heart {
   width: 10px;
