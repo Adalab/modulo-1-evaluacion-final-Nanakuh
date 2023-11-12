@@ -53,7 +53,6 @@
   color: var(--text-color1);
     &__article01 {
     width: 90vw;
-    background-color: var(--white);
     font-family: var(--font-family2);
     font-size: 30px;
     letter-spacing: normal;
@@ -62,33 +61,26 @@
     &__article02 {
       margin: 15px;
       text-align: center;
+      font-family: var(--font-family1);
     }
   }
 } 
 .downarrow {
   background-color: var(--text-color1);
   border-radius: 50%;
-  padding: 10px;
+  padding: 20px;
   margin-top: 40px;
 }
-  
-
-h3 {
-  font-family: var(--font-family1);
-}
-
 .insommia {
   color: #8ccbea;
   padding: 15px;
   font-size: 18px;
 }
-.h1 {
-  display: flex;
-}
 .text {
   font-family: var(--font-family1);
   line-height: 2;
   color: #4a4a4a;
+  padding-top: 20px;
 }
 
 .button_go {
@@ -130,22 +122,25 @@ h3 {
   font-size: 23px;
   font-family: var(--font-family1);
 }
-
 .button_reason {
   width: 185px;
-  margin: auto;
-  margin-top: 30px;
+  margin: 35px 50px 30px 50px;
   border-radius: 22.5px;
-  color: var(--text-color1);
   background-color: var(--color-orange);
+  padding: 10px 25px 10px 26px;
 }
 .button02 {
   text-decoration: none;
+  color: var(--text-color1);
+  font-weight: 700;
+  font-family: var(--font-family1);
 }
 .footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; .h1 {
+    font-size:50px
+  }
   align-items: center;
   background-color: #304268;
   color: var(--text-color1);
@@ -165,7 +160,7 @@ h3 {
 }
 .link {
   text-decoration: none;
-  color: white;
+  color: var(--text-color1);
 }
 .artbooks {
   text-align: center;
@@ -185,13 +180,26 @@ h3 {
   height: 10px;
 }
 @media (min-width: 768px) {
-  .article01 {
+  .hero__articles__article01 {
+    width: 100%;
     font-size: 80px;
   }
+  .hero__articles__article02{
+    font-size: 30px;
+  }
+  .insommia {
+    font-size: 22px;
+  }
+  .text {
+    font-size: 22px;
+  }
   .benefits {
-    /* en 3 columnas*/
     display: grid;
-    grid-template-columns: max-content;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .button02 {
+    text-align: center;
+  
   }
   .footer {
     /* en 3 columnas, copy primero*/
