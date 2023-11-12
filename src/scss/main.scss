@@ -67,11 +67,11 @@
     }
   }
 }
-.circle {
+.circle_to_reasons {
   width: 45px;
   height: 45px;
-  border-radius: 22px;
-  background-color: white;
+  border-radius: 22.5px;
+  background-color: var(--text-color1);
   position: relative;
 }
 .arrow {
@@ -82,22 +82,24 @@
   margin-left: auto;
   margin-right: auto;
 }
-.main {
+.main{
   width: 320px;
 }
 .insommia {
-  width: 90px;
   height: 30px;
-  margin: 0 200px 0 0;
+  margin: 0 200px 1px 0;
   padding-top: 20px;
+  padding-left: 15px;
   color: #8ccbea;
   font-size: 14px;
+  line-height: 30px;
   font-family: var(--font-family3);
 }
 .window {
   width: 290px;
   height: 60px;
   margin-top: 15px;
+  padding-left: 15px;
   font-size: 24px;
   font-family: var(--font-family3);
   line-height: 30px;
@@ -110,18 +112,20 @@
   font-family: var(--font-family3);
   line-height: 30px;
   color: #4a4a4a;
-  margin: 30px 15px 30px 15px;
+  margin: 15px 15px 30px;
 }
 
 .button_go {
   width: 76px;
   height: 45px;
-  margin: 30px 214px 45px 15px;
+  margin: 30px 300px 30px 0;
   padding: 10px 25px 0 26px;
   border-radius: 22.5px;
-  border: solid 3px var(--color-orange);
+  border: solid 2px var(--color-orange);
 }
 .button01 {
+  width: 25px;
+  height: 45px;
   color: var(--color-orange);
   text-decoration: none;
   font-weight: 1000;
@@ -193,7 +197,7 @@
   width: 45px;
   height: 45px;
   border-radius: 22px;
-  background-color: white;
+  background-color: var(--text-color1);
   position: absolute;
   top: -22px;
   right: 0;
@@ -234,18 +238,43 @@
   height: 10px;
 }
 @media (min-width: 768px) {
+  .hero {
+    width: 768px;
+    height: 768px;
+  }
+  .hero__articles {
+    width: 768px;
+  }
   .hero__articles__article01 {
-    width: 100%;
+    width: 690px;
+    height: 210px;
+    margin: 340px 39px 20px;
     font-size: 80px;
+    line-height: 106px;
   }
   .hero__articles__article02 {
-    font-size: 30px;
+    width: 360px;
+    height: 32px;
+    font-size: 24px;
   }
   .insommia {
-    font-size: 22px;
+    width: 216px;
+    padding-left: 39px;
+    font-size: 16px;
+    margin: 0 474px 0 0;
+  }
+  .window {
+    width: 690px;
+    height: 45px;
+    padding-left: 39px;
+    font-size: 26px;
+    line-height: 45px;
   }
   .text {
-    font-size: 22px;
+    width: 690px;
+    height: 60px;
+    padding-left: 39px;
+    font-size: 20px;
     line-height: 1.5;
   }
   .benefits {
@@ -277,5 +306,8 @@
     height: 264px;
     font-size: 100px;
     margin: 340px 0 0 231px;
+  }
+  .hero__articles__article02 {
+    width: 360px;
   }
 }
