@@ -138,9 +138,7 @@
 .footer {
   display: flex;
   flex-direction: column;
-  justify-content: center; .h1 {
-    font-size:50px
-  }
+  justify-content: center; 
   align-items: center;
   background-color: #304268;
   color: var(--text-color1);
@@ -150,7 +148,7 @@
   height: 30px;
   background-color: var(--text-color1);
   border-radius: 50%;
-  object-fit: contain;
+ 
 }
 .uparrow {
   padding: 5px;
@@ -206,20 +204,24 @@
   }
   .footer02 {
     display: flex;
+    gap: 150px;
   
     .copyright {
       order: -1;
     }
-
-    gap: 10px;
   }
   .list, .copyright {
     text-align: start;
   }
 }
 
-@media (min-width: 1200px) {
-  .article01 {
-    font-size: 150px;
+@media (min-width: 1280px) {
+  .hero__articles__article01{
+    width: 730px;
+    height: 264px;
+    font-size: 100px;
+    padding: 0px 275px 0px 275px;
+    
+    
   }
 }
