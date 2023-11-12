@@ -110,11 +110,11 @@
 .benefits {
   grid-template-rows: max-content;
   font-size: 20px;
-  padding: 0px 30px;
+  padding: 5px 30px;
 }
 .title {
   font-family: var(--font-family2);
-  padding: 45px 0px 5px 0px;
+  padding: 45px 0px 10px 0px;
   font-weight: bold;
   font-size: 25px;
 }
@@ -192,19 +192,29 @@
   }
   .text {
     font-size: 22px;
+    line-height: 1.5;
   }
   .benefits {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px 20px;
+    gap: 8px;
   }
-  .button02 {
-    text-align: center;
+  .button_reason {
+    grid-template-columns: 1fr;
   
   }
-  .footer {
-    /* en 3 columnas, copy primero*/
-    display: flexbox;
-    flex-wrap: wrap;
+  .footer02 {
+    display: flex;
+  
+    .copyright {
+      order: -1;
+    }
+
+    gap: 10px;
+  }
+  .list, .copyright {
+    text-align: start;
   }
 }
 
