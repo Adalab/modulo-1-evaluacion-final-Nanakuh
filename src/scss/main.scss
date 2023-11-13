@@ -160,12 +160,14 @@
   font-family: var(--font-family2);
   width: 184px;
   height: 30px;
+  font-size: 18px;
   font-weight: bold;
 }
 .text01 {
   font-family: var(--font-family3);
   width: 180px;
   height: 63px;
+  font-size: 18px;
   margin: 2px 0 30px 0;
   line-height: 30px;
 }
@@ -276,13 +278,32 @@
     padding-left: 39px;
     font-size: 20px;
     line-height: 1.5;
+    margin: 0;
+  }
+  .button_go {
+    margin: 30px 300px 30px 39px;
+  }
+  .reasons {
+    width: 100vw;
+  }
+  .purchase{
+    font-size: 26px;
+    width: 320px;
   }
   .benefits {
+    width: 720px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 5px 20px;
-    gap: 8px;
+    gap:27.7px;
   }
+  title {
+    font-size: 24px;
+  }
+  .text01 {
+    font-size: 20px;
+  }
+
   .button_reason {
     grid-template-columns: 1fr;
   }
