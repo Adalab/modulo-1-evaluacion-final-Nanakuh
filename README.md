@@ -12,8 +12,7 @@ Este proyecto es la evaluación final del Módulo 1 del curso en [Adalab](https:
 3. Lanzar el proyecto en modo desarrollo: npm run dev
 
 
-Espero que encuentres útil este README. ¡Buena suerte con tu proyecto!
-
+Espero que encuentres útil este README. 
 
 ## Authors
 
