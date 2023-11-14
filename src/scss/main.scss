@@ -15,10 +15,10 @@
 @import "pages/index";
 
 :root {
-  --font-family1: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  --font-family2: RobotoSlab;
   --font-family3: Roboto-Regular;
+  --font-family1: 'Roboto', sans-serif;
+  --font-family2: 'Roboto Slab', serif;
+
   --text-color1: white;
   --text-color2: black;
   --color-orange: #f26002;
@@ -82,9 +82,6 @@
   left: 0;
   margin-left: auto;
   margin-right: auto;
-}
-.main{
-  width: 320px;
 }
 .insommia {
   height: 30px;
