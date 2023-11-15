@@ -26,6 +26,7 @@
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-position-x: center;
+  background-size: cover;
 }
 .rectangle__menu {
   width: 100%;
@@ -117,7 +118,7 @@
 .button_go {
   width: 76px;
   height: 45px;
-  margin: 30px 300px 30px 0;
+  margin: 30px 229px 30px 15px;
   padding: 10px 25px 0 26px;
   border-radius: 22.5px;
   border: solid 2px var(--color-orange);
@@ -154,6 +155,13 @@
   font-size: 20px;
   color: var(--text-color2);
   justify-content: center;
+}
+.benefits01,
+.benefits02,
+.benefits03 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .title {
   font-family: var(--font-family2);
@@ -195,6 +203,9 @@
   background-color: #304268;
   color: var(--text-color1);
 }
+.footer02 {
+  line-height: 30px;
+}
 .footercircle {
   width: 45px;
   height: 45px;
@@ -233,7 +244,6 @@
 .copyright {
   padding: 20px;
   text-align: center;
-  inline-size: 1.5;
 }
 .heart {
   width: 10px;
@@ -366,6 +376,5 @@
   .benefits02,
   .benefits03 {
     width: 353.8px;
-    text-align: justify;
   }
 }
