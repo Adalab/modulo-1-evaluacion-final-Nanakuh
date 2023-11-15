@@ -16,9 +16,8 @@
 
 :root {
   --font-family3: Roboto-Regular;
-  --font-family1: 'Roboto', sans-serif;
-  --font-family2: 'Roboto Slab', serif;
-
+  --font-family1: "Roboto", sans-serif;
+  --font-family2: "Roboto Slab", serif;
   --text-color1: white;
   --text-color2: black;
   --color-orange: #f26002;
@@ -29,6 +28,7 @@
   background-position-x: center;
 }
 .rectangle__menu {
+  width: 100%;
   display: block;
   width: 44px;
   height: 44px;
@@ -99,7 +99,7 @@
   margin-top: 15px;
   padding-left: 15px;
   font-size: 24px;
-  font-family: var(--font-family);
+  font-family: var(--font-family3);
   line-height: 30px;
   text-align: left;
 }
@@ -157,7 +157,7 @@
 }
 .title {
   font-family: var(--font-family2);
-  width: 184px;
+  width: 200px;
   height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -286,7 +286,7 @@
   .reasons {
     width: 100vw;
   }
-  .purchase{
+  .purchase {
     font-size: 26px;
     width: 320px;
   }
@@ -295,7 +295,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 5px 20px;
-    gap:27.7px;
+    gap: 27.7px;
   }
   title {
     font-size: 26px;
@@ -311,15 +311,16 @@
   }
   .footer02 {
     display: flex;
-    align-items:normal;
-  
-    .artbooks, .socialmedia{
+    align-items: normal;
+
+    .artbooks,
+    .socialmedia {
       padding: 0 70px 0 70px;
     }
 
-  .copyright {
-    order: -1;
-    text-align: justify;
+    .copyright {
+      order: -1;
+      text-align: justify;
     }
   }
   .list {
@@ -355,13 +356,15 @@
   .purchase {
     font-size: 32px;
   }
-   .button_go {
+  .button_go {
     margin: 30px 300px 30px 310px;
     width: 160px;
     height: 45px;
     text-align: center;
   }
-  .benefits01, .benefits02, .benefits03 {
+  .benefits01,
+  .benefits02,
+  .benefits03 {
     width: 353.8px;
     text-align: justify;
   }
