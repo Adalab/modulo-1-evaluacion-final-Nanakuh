@@ -259,12 +259,11 @@
   .hero__articles__article01 {
     width: 690px;
     height: 210px;
-    margin: 340px 39px 20px;
+    margin: 384px 39px 20px;
     font-size: 80px;
     line-height: 106px;
   }
   .hero__articles__article02 {
-    width: 360px;
     height: 32px;
     font-size: 24px;
   }
@@ -342,6 +341,7 @@
   .hero__articles__article01 {
     width: 730px;
     height: 264px;
+    margin-top: 384px;
     font-size: 100px;
     line-height: 132px;
   }
@@ -363,7 +363,10 @@
     width: 730px;
   }
   .purchase {
+    width: 730px;
     font-size: 32px;
+    display: flex;
+    text-align: center;
   }
   .button_go {
     margin: 30px 300px 30px 310px;
